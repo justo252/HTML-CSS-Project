@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.upper-heading{
+    color: chartreuse;
+}
+p{
+    text-align:justify;
+    font-family: sans-serif;
+    color: darkblue;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.heading{
+    width: 100%;
+    height: 80px;
+    color: darkblue;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    padding:10px;
+    background: #622dde;
+    color: white;
+    text-align: center;
+}

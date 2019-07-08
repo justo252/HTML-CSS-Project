@@ -1,0 +1,81 @@
+td, table, tr, th{
+
+    border: solid cornflowerblue;
+    border-collapse: collapse;
+}
+table{
+
+}
+th{
+    font-size: 30px;
+    color: blue;
+    font-family: sans-serif;
+    background: chartreuse;
+    height: 80px;
+    position: relative;
+    padding: 10px;
+}
+tr{
+    height: 40px;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    position: relative;
+    padding: 10px;
+}
+tr:hover{
+    background: beige;
+}
+*{
+    box-sizing: border-box;
+}
+table{
+    overflow: hidden;
+    display: inline-block;
+}
+  /*Column*/
+  td:hover::after{
+    background: #de5191;
+    content: '';
+    height: 10000px;
+    left: 0;
+    position: absolute;
+    top: -5000px;
+    width: 100%;
+    z-index: -1;
+
+  }
+ .practise-logo{
+     display: flex;
+     align-content: center;
+     align-items: center;
+     justify-content: center;
+ }
+ ul{
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+background: darkmagenta;
+     list-style-type: none;
+ }
+ li{
+     float: left;
+     align-items: center;
+     justify-content: center;
+ }
+ li a{
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: cornflowerblue;
+     font-family: "Arial Black";
+
+ }
+ li a:hover{
+     background-color: blanchedalmond;
+
+ }
+ .active{
+     background: crimson;
+ }
